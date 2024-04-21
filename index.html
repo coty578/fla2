@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: blue;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2rem;
+            border: solid
+        }
+        .flag{
+            background-color: green;
+            height: 500px;
+            width: 900px;
+            margin-left: 200px;
+            position: relative;
+        }
+        .flag >.yellow{
+            width: 500px;
+            height: 0px;
+            
+            border-left: 50px solid transparent;
+            border-right: 50px transparent;
+            border-bottom: 100px solid yellow;
+            border-width: 500px;
+            position: absolute;       
+        }
+        .yellow .red {
+            width: -250px;
+            height: 0px;
+            border-left: 50px solid transparent;
+            border-right: 50px transparent;
+            border-bottom: 100px solid red;
+            border-width: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <p>le drapeau de la republique du congo</p>
+    <div  class="flag">
+        <div class="yellow">
+            <div class="red"></div>
+        </div>
+    </div>
+   
+</body>
+</html>
